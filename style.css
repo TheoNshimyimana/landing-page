@@ -1,5 +1,5 @@
 body {
-  margin-right: 3rem;
+  /* margin-right: 3rem; */
   font-family: sans-serif monospace;
 }
 header {
@@ -29,7 +29,7 @@ h1 {
 }
 
 .paragraph--header {
-  color: #ffff;
+  color: #f9faf8;
 }
 
 .btn {
@@ -43,10 +43,12 @@ h1 {
 }
 img {
   max-width: 300px;
+  height: 200px;
 }
 .description .image {
   display: flex;
 }
+
 .block {
   display: flex;
   align-items: center;
@@ -55,24 +57,92 @@ img {
   margin-top: 40px;
   padding: 20px;
 }
-.images--block {
+
+/* Images */
+.images__block h1 {
+  color: #1f2937;
+  text-align: center;
+}
+.images--content {
   display: flex;
-  align-items: center;
+  text-align: center;
   gap: 20px;
   margin-bottom: 20px;
   margin-top: 40px;
   padding: 20px;
+  list-style: none;
 }
-.images--block h1 {
+.images--content h1 {
   color: #1f2937;
 }
 
+/* testimonial */
 .testimonial {
   background-color: #e5e7eb;
+  text-align: center;
 }
+.testimonial h1{
+  color: #1f2937;
+}
+/* .testimonial h2{
+  justify-items: flex-end;
+} */
+
 
 i {
   font-size: 36px;
   color: #1f2937;
   font-weight: bolder;
+}
+
+/* Callout */
+.callout {
+  padding: 2rem;
+  border-radius: 5px;
+  background: #3882f6;
+}
+
+.callout--content {
+  color: #fff;
+  text-align: left;
+}
+
+.callout__heading {
+  color: #fff;
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.callout--content .btn--callout {
+  display: flex;
+}
+
+.btn--callout {
+  border: 2px solid #ebf5e1;
+  text-decoration: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer__copyright {
+  font-size: 1.4rem;
+  color: #f9faf8;
+  text-align: center;
+  background-color: #1f2937;
+  padding-top: 1.6rem;
+}
+.footer__copyright a {
+  color: #3882f6;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  transition: color 0.3s;
+  color: #f9faf8;
 }
