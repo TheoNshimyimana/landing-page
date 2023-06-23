@@ -8,22 +8,50 @@
   </head>
   <body>
     <header>
-      <ul class="navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">API</a></li>
-      </ul>
+      <div class="nav nav--header">
+        <div class="header">
+          <img src="images/icon.png" alt="Logo" class="logo log--header" />
+          <h2 class="logo-heading">Odin Recipes</h2>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a target="_blank" href="https://www.theodinproject.com">Home</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.theodinproject.com"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href="https://twitter.com/TheOdinProject"
+                >Contacts</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href="https://www.theodinproject">API</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
       <section class="block">
         <div class="description">
           <h1>This website is awesome</h1>
-          <p class="paragraph--header">
+          <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis,
             molestiae!
           </p>
-          <button class="btn">Sign up</button>
+          <a
+            target="_blank"
+            href="https://www.theodinproject.com"
+            class="btn btn--header"
+            >Sign up</a
+          >
         </div>
-        <div class="image">
-          <img src="images/furniture.jpg" alt="" />
+
+        <div>
+          <img src="images/furniture.jpg" alt="" class="image" />
         </div>
       </section>
     </header>
@@ -32,27 +60,30 @@
       <div class="images--content">
         <li>
           <img src="images/furniture.jpg" alt="" />
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <p>
+            Lorem ipsum, dolor sit amet<br />
+            consectetur adipisicing elit.
+          </p>
         </li>
         <li>
           <img src="images/laptop.jpg" alt="" />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Perspiciatis, est?
+            Lorem ipsum, dolor sit <br />
+            consectetur adipisicing .
           </p>
         </li>
         <li>
           <img src="images/oop.png" alt="" />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis,
-            laboriosam.
+            Lorem ipsum, dolor sit amet<br />
+            consectetur adipisicing elit.
           </p>
         </li>
         <li>
           <img src="images/mylap.jpg" alt="" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-            repudiandae?
+            Lorem ipsum, dolor sit amet<br />
+            consectetur adipisicing elit.
           </p>
         </li>
       </div>
@@ -66,24 +97,26 @@
           recusandae ex officia, ipsam accusamus alias asperiores molestias id
           aliquam.
         </i>
-        <h2>-Thor, God of Thunder</h2>
+        <h2 class="testimonial-footer">-Thor, God of Thunder</h2>
       </div>
     </blockquote>
 
     <div class="callout">
       <div class="callout--content">
-        <h2 class="callout__heading">Are You Ready to Get Started?</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-          voluptate tempora qui distinctio consequatur aliquid pariatur
-          cupiditate quas cum fugit.
-        </p>
+        <h2 class="callout__heading">Get Started</h2>
+        <p>Lorem ipsum dolor sit amet, consecte voluptate tempor</p>
       </div>
-      <button class="btn btn--callout">Sign up</button>
+
+      <a
+        target="_blank"
+        href="https://www.theodinproject.com"
+        class="btn btn--callout"
+        >Sign up</a
+      >
     </div>
 
     <footer class="footer__copyright">
-      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <img src="images/icon.png" alt="Logo" class="logo" />
       <p>
         &copy; Copyright by
         <a
