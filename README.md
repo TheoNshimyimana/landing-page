@@ -1,2 +1,2 @@
-# Landing page from Odin Recipes project
+# Landing page from odin recipes project
 Done by Theophile Nshimyimana
